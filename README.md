@@ -107,6 +107,15 @@ ffmpeg -hwaccel cuda -c:v h264_cuvid -i wudi.flv \
 
 顺带一提如果是需要等宽字体的话我也推荐 [更纱黑体](https://github.com/be5invis/Sarasa-Gothic)，同样开源，中文等宽，也很美观，适合编程。
 
+### 外网搬运视频
+
+外网的视频以 Twitch 直播回放 和 Youtube 视频为主，这里分别介绍。
+
+Twitch 直播回放有一个很好用的开源软件可以使用：[TwitchDownloader](https://github.com/lay295/TwitchDownloader) 基本属于开箱即用，只要有视频或者回放链接就可以下载，这个软件还有很多实用的功能，当然我并没有深入了解，因为外网的 Ra2 视频并不多。
+
+
+Youtube 视频的下载其实有很多选择，我为了方便选择了一个浏览器扩展，使用起来还是很舒服的。[Firefox 扩展](https://addons.mozilla.org/zh-CN/firefox/addon/youtube-4k-downloader/) | [Edge 扩展](https://microsoftedge.microsoft.com/addons/detail/yt-4k-downloader/jkkmnmpgeacclnbiijilagkmmgdbgiac?hl=zh-CN)
+
 ### 其它自制视频
 
 [但是他怎么直接自爆了我靠](https://www.bilibili.com/video/BV1DY4y1d7uH/)
@@ -130,6 +139,12 @@ ffmpeg -hwaccel cuda -c:v h264_cuvid -i wudi.flv \
 - ......
 
 如果大家对我有什么意见与建议，欢迎b站私信我，或者 [Email](wudi7mi@google.com) 也是完全可以的。
+
+## 更新
+
+- 2023.2.4 首次提交
+- 2023.2.15 更新了大部分内容
+- 2023.9.7 更新了《更新》；更新了外网搬运的流程
 
 ## 感谢
 
